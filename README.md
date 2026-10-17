@@ -1,4 +1,5 @@
 // Microsoft Sentinel: Repeated failed sign-in detection
+//A Microsoft Sentinel KQL hunting query that identifies repeated failed sign-ins by user and source IP within hourly windows, providing authentication failure details and investigation context to support SOC triage and threat hunting.
 let lookback = 24h;
 let threshold = 5;
 let timeWindow = 1h;
